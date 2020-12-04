@@ -1,0 +1,36 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        // in CommonJS
+        "node": true,
+        // browser
+        "browser": true,
+        // mocha
+        "mocha": true
+    },
+    "globals": {},
+    "rules": {
+        "semi": [ 2, "never" ],
+        "quotes": [ 2, "single", "avoid-escape" ],
+        "strict": [2, "never"],
+        "react/jsx-uses-react": 2,
+        "react/jsx-uses-vars": 2,
+        "no-unused-vars": [ 2, {"vars": "all", "args": "none"} ],
+        "eqeqeq": [ 2, "smart" ],
+        "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ],
+        "no-console": ["error", { "allow": ["debug", "info", "warn", "error"] }],
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "react/react-in-jsx-scope": "off"
+//        "object-curly-spacing": [ 2, "always" ]
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
