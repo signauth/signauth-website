@@ -7,4 +7,4 @@ docker run -it --rm \
   -v $PWD/log:/var/log/signauth-cc \
   -e NODE_ENV=development \
   -e VIRTUAL_HOST=signauth.cc.localhost,www.signauth.cc.localhost \
-  -w /usr/src/app node:carbon npm run start
+  -w /usr/src/app node:12.20.0-alpine3.10 npm run start
