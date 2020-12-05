@@ -38,7 +38,7 @@ For more info, look at the GitHub repos [https://github.com/signauth](https://gi
 
 ---
 
-SignAuth is released under a MIT licence. (c) 2020 [Francesco Sullo](https://francesco.sullo.co).
+SignAuth is released under a MIT licence. (c) 2020 [Francesco Sullo](https://francesco.sullo.co). This website is build using [SignAuth React/Express Boilerplate](https://github.com/signauth/signauth-react-express-boilerplate) as a template.
 
 `
 
