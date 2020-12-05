@@ -13,4 +13,4 @@ docker run -d \
   -e VIRTUAL_HOST=signauth.cc,www.signauth.cc \
   -e LETSENCRYPT_HOST=signauth.cc,www.signauth.cc \
   -e LETSENCRYPT_EMAIL=signauth@sullo.co \
-  -w /usr/src/app node:carbon npm run start
+  -w /usr/src/app node:12.20.0-alpine3.10 npm run start
