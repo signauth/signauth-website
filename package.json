@@ -21,6 +21,7 @@
     "local-storage": "^1.4.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-markdown": "^5.0.3",
     "react-password-strength-bar": "^0.3.2",
     "signauth": "^0.0.5",
     "sqlite3": "^5.0.0",
