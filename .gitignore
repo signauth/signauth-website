@@ -25,4 +25,4 @@ yarn-error.log*
 /db
 tmp
 
-
+bundle.min.js
