@@ -50,7 +50,7 @@ export default class Menu extends Base {
 
   render() {
     return <Navbar bg="light" expand="lg" sticky="top">
-      <Navbar.Brand href="#home">SignAuth Boilerplate</Navbar.Brand>
+      <Navbar.Brand href="#home">SignAuth</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
