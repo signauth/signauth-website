@@ -1,12 +1,12 @@
 {
-  "name": "signauth-react-express-boilerplate",
+  "name": "signauth-website",
   "version": "0.1.0",
   "private": true,
-  "description": "A boilerplate for SignAuth using React & Express",
+  "description": "A website for Signauth",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/signauth/signauth-react-express-boilerplate.git"
+    "url": "git+https://github.com/signauth/signauth-website.git"
   },
   "author": "Francesco Sullo <francesco@sullo.co>",
   "license": "MIT",
