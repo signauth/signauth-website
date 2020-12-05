@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   <title>SignAuth React/Express Boilerplate</title>
 
-  <meta name="description" content="description">
+  <meta name="description" content="A protocol for a better web authentication">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="title">
-  <meta property="og:url" content="https://example.com">
-  <meta property="og:site_name" content="name">
-  <meta property="og:description" content="description">
+  <meta property="og:title" content="SignAuth">
+  <meta property="og:url" content="https://signauth.cc">
+  <meta property="og:site_name" content="SignAuth">
+  <meta property="og:description" content="SignAuth uses ED25519 to authenticate a username, sending to the server the user's generated public key">
   <meta property="og:locale" content="en">
   <meta property="og:updated_time" content="2019-05-15T01:32:22.952Z">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="title">
-  <meta name="twitter:description" content="description">
+  <meta name="twitter:card" content="A protocol for a better web authentication">
+  <meta name="twitter:title" content="SignAuth">
+  <meta name="twitter:description" content="SignAuth uses ED25519 to authenticate a username, sending to the server the user's generated public key">
 
   <link rel="icon" href="/favicon.png">
 
@@ -47,3 +47,6 @@
 
 </body>
 </html>
+Password should not been sent in plain-text to a server.
+A few days ago I was thinking about this problem that really upset me. So, I wrote a protocol to solve this issue and implemented in in a JS library.
+Let me know what you think.
