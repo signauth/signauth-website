@@ -51,7 +51,7 @@ export default class Home extends Base {
         <h2 className="centered">SignAuth</h2>
         <p className="centered"><i>An authentication protocol to protect your password</i></p>
         <ReactMarkdown children={markdown} />
-        <Image src="https://raw.githubusercontent.com/signauth/signauth/master/assets/signauth-flow.png" fluid />
+        <p><Image src="https://raw.githubusercontent.com/signauth/signauth/master/assets/signauth-flow.png" fluid /></p>
         <ReactMarkdown children={markdown2} />
       </div>
     )
