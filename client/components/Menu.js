@@ -72,7 +72,7 @@ export default class Menu extends Base {
             : <span><Link to="/signin">Signin</Link> <Link to="/signup">Signup</Link></span>
         }
         <span> &nbsp; | &nbsp; </span>
-        <a className="item" target="_blank" href="https://github.com/signauth">
+        <a className="item" target="_blank" href="https://github.com/signauth/signauth">
           <i className="fab fa-github"></i>
         </a>
         <a className="item" target="_blank" href="https://twitter.com/signauth">
