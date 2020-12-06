@@ -49,7 +49,7 @@ export default class Home extends Base {
   render() {
     return (
       <div>
-        <p className="centered"><Image src="./images/signauth-logo-small.png" style={{width: 300}}/></p>
+        <p className="centered"><Image src="./images/signauth-logo.png" style={{width: 300, margin:12}}/></p>
         <h4 className="centered">An authentication protocol bases on ed25519 high-security signatures</h4>
         <p>&nbsp;</p>
         <ReactMarkdown children={markdown}/>
