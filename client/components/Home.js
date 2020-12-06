@@ -1,4 +1,3 @@
-
 // eslint-disable-next-line no-undef
 const {Image} = ReactBootstrap
 
@@ -50,11 +49,12 @@ export default class Home extends Base {
   render() {
     return (
       <div>
-        <h2 className="centered">SignAuth</h2>
-        <p className="centered"><i>An authentication protocol to protect your password</i></p>
-        <ReactMarkdown children={markdown} />
-        <p><Image src="https://raw.githubusercontent.com/signauth/signauth/master/assets/signauth-flow.png" fluid /></p>
-        <ReactMarkdown children={markdown2} />
+        <p className="centered"><Image src="./images/signauth-logo-small.png" style={{width: 300}}/></p>
+        <h4 className="centered">An authentication protocol bases on ed25519 high-security signatures</h4>
+        <p>&nbsp;</p>
+        <ReactMarkdown children={markdown}/>
+        <p><Image src="https://raw.githubusercontent.com/signauth/signauth/master/assets/signauth-flow.png" fluid/></p>
+        <ReactMarkdown children={markdown2}/>
       </div>
     )
   }
