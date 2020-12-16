@@ -50,12 +50,19 @@ export default class Menu extends Base {
 
   render() {
     return <Navbar bg="light" expand="lg" sticky="top">
-      <Navbar.Brand href="#home">SignAuth</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <img
+          alt=""
+          src="/images/signauth-small-logo.png"
+          height="26"
+          className="d-inline-block align-top"
+        />{' '}
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Navbar.Text>
-          <Link to="/">Home</Link>
+          {/*<Link to="/">Home</Link>*/}
 
           </Navbar.Text>
         </Nav>

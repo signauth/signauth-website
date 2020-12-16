@@ -17,6 +17,10 @@
 /*    padding: 60px 15px 0;*/
 /*}*/
 
+body, div, p {
+    font-family: 'Istok Web', sans-serif;
+}
+
 .footer {
     border-top: 1px dotted #ddd;
     text-align: center;
@@ -46,4 +50,16 @@
 
 .strength div div {
     height: 4px !important;
+}
+
+.logo img {
+    width: 100px;
+    margin: 16px 0 0;
+}
+
+
+.logo span {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #26296E !important;
 }
