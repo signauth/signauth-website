@@ -49,8 +49,10 @@ export default class Home extends Base {
   render() {
     return (
       <div>
-        <p className="centered"><Image src="./images/signauth-logo.png" style={{width: 300, margin:12}}/></p>
-        <h4 className="centered">An authentication protocol bases on ed25519 high-security signatures</h4>
+        <p className="centered logo"><Image src="./images/signauth-small-icon.png"/><br/>
+        <span>SignAuth</span>
+        </p>
+        <p className="centered"><i>An authentication protocol bases on ed25519 high-security signatures</i></p>
         <p>&nbsp;</p>
         <ReactMarkdown children={markdown}/>
         <p><Image src="https://raw.githubusercontent.com/signauth/signauth/master/assets/signauth-flow.png" fluid/></p>
