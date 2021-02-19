@@ -31,7 +31,7 @@ To check how it works, if you are an engineer, you can inspect the network and s
 
 ## Contributions
 
-My name is Francesco Sullo, and I am fascinated by security and, mostly, by how little people care about it. I had the idea for SignAuth after a discussion with a friend who works for Pinterest. It put me about one day to write the main library and another day to build a boilerplate to help people implementing SignAuth — I used the boilerplate as a template for this website.
+My name is Francesco Sullo, and I am fascinated by security and, mostly, by how little people care about it. I had the idea for SignAuth after a discussion with a friend who works for Pinterest. It took me about one day to write the main library and another day to build a boilerplate to help people implementing SignAuth — I used the boilerplate as a template for this website.
 
 The way SignAuth works is not a new idea; it is actually similar to many other protocols. Still, the concept is quite powerful, and I hope that other developers would like to help me improving the protocol.
 
