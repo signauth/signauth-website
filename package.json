@@ -24,7 +24,7 @@
     "react-markdown": "^5.0.3",
     "react-password-strength-bar": "^0.3.2",
     "signauth": "~0.1.2",
-    "sqlite3": "^5.0.0",
+    "sqlite3": "^5.0.3",
     "superagent": "^4.1.0"
   },
   "devDependencies": {
